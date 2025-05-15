@@ -8,22 +8,18 @@
 }
 
 .App-header {
-  background-color: white;
-  min-height: 100vh;
+  background-color: rgb(22, 159, 223);
+  min-height: 5vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: #6170fb;
+  color: #142ea3;
 }
 
 .App-link {
-  color: #6170fb;
-}
-
-h1 {
-  color: #61dafb;
+  color: #141f7a;
 }
 
 @keyframes App-logo-spin {
@@ -32,5 +28,23 @@ h1 {
   }
   to {
     transform: rotate(360deg);
-  }
+  } 
+}
+
+h1 {
+  color: rgb(11, 51, 138); 
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgb(224, 26, 26);
+}
+.banner {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
 }
